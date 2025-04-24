@@ -1,0 +1,34 @@
+html {
+    background-image: url(Assets/skyNight.gif);
+    background-size: 200vh;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+
+.computer {
+    position: absolute;
+    width: 70%;
+    left: 50%;
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+a {
+    position: absolute;
+    margin: 0;
+    left: 50%;
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    top: 60%;
+    z-index: 10;
+}
+
+a {
+    
+    text-decoration: none !important;
+}
+
+ :hover {
+    color: red;
+}
