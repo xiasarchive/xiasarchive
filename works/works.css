@@ -1,0 +1,35 @@
+
+
+div, iframe {
+    text-align: center;
+    justify-content: center;
+    margin: 0, auto;
+    display: flex;
+    border-width: 5px;
+}
+
+iframe {
+    position: relative;
+    top: 10vh;
+}
+
+p {
+    position: relative;
+    z-index: 10;
+    color: red;
+    font-size: 20px;
+    top: 15vh;
+}
+
+#back {
+    position: relative;
+    top: 20vh;
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: red;
+}
