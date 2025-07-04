@@ -1,0 +1,111 @@
+
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-image: url("Assets/rain.gif");
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+
+#top {
+
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: nowrap;
+  margin-top: 1vh;
+  align-items: center;
+
+}
+
+  .button {
+    width: 150px;
+  }
+
+  .fish {
+    height: 42px;
+    width: 200px;
+    border: 2px silver inset;
+  }
+
+  .clock {
+    margin-bottom: 4px;
+    background-color: blue;
+    height: 42px;
+    width: 493;
+    border: 2px silver inset;
+  }
+
+  .chillin {
+    
+    margin-bottom: 4px;
+    height: 40px;
+  }
+
+  .sillybutton {
+    
+    margin-bottom: 4px;
+  }
+
+
+
+
+  #slide-bg {
+      position: absolute;
+      left: 0;
+      top: 25vh;
+      width: 100vw;
+      height: 100vh;
+      align-items: center;
+      text-align: center;
+      justify-content: center;
+  }
+
+  #slide-bg img {
+    max-height: 60%;
+  }
+
+  
+.text {
+  position: relative;
+  z-index: 100;
+  font-weight: bolder;
+  text-align: center;
+  top: -8vh;
+}
+
+
+
+
+
+.slider {
+  position: absolute;
+  width: 100%;
+  top: 21vh;
+  margin: auto;
+  overflow: hidden;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.slider img {
+  display: none;
+  height: 50vh;
+  margin: 50px;
+}
+
+img.displaySlide {
+  display: block;
+}
+
+button {
+  z-index: 50;
+  width: 25px;
+  height: 25px;
+  border-style: ridge;
+  border-radius: 3px;
+  border-width: 3px;
+  cursor: grab;
+}
